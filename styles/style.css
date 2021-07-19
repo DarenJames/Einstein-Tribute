@@ -1,0 +1,13 @@
+html{
+    background-color: black;
+    font-family: 'Uchen', serif;
+}
+
+#navbar {
+    float: left;
+    background-color: #1414FA;
+}
+
+#icon {
+    width: 40px;
+}
