@@ -1,5 +1,5 @@
-html{
-    background-color: rgb(18, 18, 18);
+body {
+    background-color: rgb(26, 26, 26);
     font-family: 'Uchen', serif;
 }
 
@@ -33,4 +33,33 @@ html{
 
 #title p {
     margin: 0;
+}
+
+#timeline {
+    width: 700px;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    margin: 200px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color:rgb(144, 202, 249);
+    border-style: dashed;
+    border-width: 5px;
+}
+
+#timeline h2 {
+    text-align: center;
+    color:rgb(144, 202, 249);
+    font-size: 33;
+}
+
+li {
+    margin: 12px 0;
+    font-size: 17;
+}
+
+.blue-text {
+    color:rgb(144, 202, 249);
 }
