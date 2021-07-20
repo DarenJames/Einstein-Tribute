@@ -39,7 +39,7 @@ body {
     width: 700px;
     color: rgb(255, 255, 255);
     padding: 50px;
-    margin: 200px auto;
+    margin: 300px auto;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -56,10 +56,18 @@ body {
 }
 
 li {
-    margin: 12px 0;
-    font-size: 17;
+    margin: 19px 0;
+    font-size: 20;
 }
 
 .blue-text {
     color:rgb(144, 202, 249);
+}
+
+#link {
+    color: rgb(144, 202, 249);
+}
+
+#timeline p {
+    font-size: 20
 }
