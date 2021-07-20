@@ -3,11 +3,34 @@ html{
     font-family: 'Uchen', serif;
 }
 
+#header {
+    width: 1000px;
+    display: flex;
+    margin: 150px auto;
+}
+
+#div-Einstein-pic {
+    align-self: center;
+    margin-right: 50px;
+}
+
+#Einstein-pic {
+    width: 500px;
+}
+
 #title {
     color: rgb(144, 202, 249);
     font-size: 24;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-h1 {
+#title h1 {
     font-size: 53;
+    margin: 0;
+}
+
+#title p {
+    margin: 0;
 }
