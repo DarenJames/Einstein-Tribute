@@ -1,14 +1,13 @@
 html{
-    background-color: black;
+    background-color: rgb(18, 18, 18);
     font-family: 'Uchen', serif;
-    color: gray;
 }
 
-#navbar {
-    float: left;
-    background-color: #1414FA;
+#title {
+    color: rgb(144, 202, 249);
+    font-size: 24;
 }
 
-#icon {
-    width: 40px;
+h1 {
+    font-size: 53;
 }
