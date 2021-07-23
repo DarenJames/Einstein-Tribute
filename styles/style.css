@@ -49,10 +49,16 @@ body {
     border-width: 5px;
 }
 
-#timeline h2 {
+h2 {
     text-align: center;
     color:rgb(144, 202, 249);
     font-size: 33;
+}
+
+h3 {
+    text-align: center;
+    color:rgb(144, 202, 249);
+    font-size: 22;
 }
 
 li {
@@ -84,4 +90,21 @@ li {
 
 #timeline p {
     font-size: 20
+}
+
+#achievements {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boxes {
+    width: 530px;
+    padding: 20px;
+    border-color:rgb(144, 202, 249);
+    border-style: dashed;
+    border-radius: 15px;
+    color:rgb(255, 255, 255);
+    font-size: 17;
 }
