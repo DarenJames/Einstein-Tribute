@@ -65,12 +65,13 @@ li {
 }
 
 .button {
-    background-color: rgb(26, 26, 26);
-    color: rgb(144, 202, 249);
+    background-color: rgb(144, 202, 249);
+    color: rgb(26, 26, 26);
     width: 100px;
-    font-size: 20;
+    font-size: 18;
+    border-radius: 5px;
     border-color: rgb(144, 202, 249);
-    opacity: .9;
+    opacity: .95;
 }
 
 .button:hover {
