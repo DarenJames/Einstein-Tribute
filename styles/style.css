@@ -92,6 +92,10 @@ li {
     font-size: 20
 }
 
+#legacy-title {
+    margin-bottom: 80px
+}
+
 #achievements {
     margin: 0 auto;
     width: 1200px;
@@ -109,6 +113,24 @@ li {
     border-style: dashed;
     border-radius: 15px;
     color:rgb(255, 255, 255);
-    font-size: 17;
+    font-size: 18;
     flex: 0 0 43%;
+    display: flex;
+    flex-direction: column;
+}
+
+#special-relativity-pic {
+    background-color: white;
+    width: 250px;
+    height: 254px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#spacetime-curvature-pic {
+    width: 350px;
+    height: 254px;
+    align-self: center;
+    margin-bottom: 20px;
 }
