@@ -107,7 +107,7 @@ li {
 }
 
 .boxes {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     padding: 30px;
     border-color:rgb(144, 202, 249);
     border-style: dashed;
@@ -147,5 +147,33 @@ li {
     height: 200px;
     align-self: center;
     margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#time-dilation-gif {
+    width: 200px;
+    width: 200px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+a {
+    color: rgb(144, 202, 249);
+}
+
+#gravitational-lensing-gif {
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#length-contraction-gif {
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
