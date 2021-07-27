@@ -93,22 +93,22 @@ li {
 }
 
 #legacy-title {
-    margin-bottom: 80px
+    margin-bottom: 60px;
 }
 
 #achievements {
     margin: 0 auto;
-    width: 1200px;
+    width: 1250px;
     padding: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .boxes {
     margin-bottom: 100px;
-    padding: 20px;
+    padding: 30px;
     border-color:rgb(144, 202, 249);
     border-style: dashed;
     border-radius: 15px;
@@ -124,13 +124,28 @@ li {
     width: 250px;
     height: 254px;
     align-self: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 #spacetime-curvature-pic {
     width: 350px;
-    height: 254px;
+    height: 200px;
     align-self: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#prediction-title {
+    width: 1200px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+#black-hole-pic {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
