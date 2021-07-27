@@ -45,7 +45,7 @@ body {
     flex-direction: column;
     justify-content: center;
     border-color:rgb(144, 202, 249);
-    border-style: dashed;
+    border-style: solid;
     border-width: 5px;
 }
 
@@ -176,4 +176,10 @@ a {
     height: 200px;
     margin-top: 10px;
     margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255)
 }
