@@ -4,7 +4,7 @@ body {
 }
 
 #header {
-    width: 1000px;
+    width: 71vw;
     display: flex;
     margin: 150px auto;
 }
@@ -22,14 +22,14 @@ body {
 
 #title {
     color: rgb(144, 202, 249);
-    font-size: 24;
+    font-size: 1.7vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 #title h1 {
-    font-size: 53;
+    font-size: 3.8vw;
     margin: 0;
 }
 
