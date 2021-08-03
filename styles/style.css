@@ -4,13 +4,13 @@ body {
 }
 
 #header {
-    width: 1000px;
+    width: 80vw;
     display: flex;
-    margin: 150px auto;
+    justify-content: center;
+    margin: 20vh auto;
 }
 
 #div-Einstein-pic {
-    align-self: center;
     margin-right: 50px;
 }
 
@@ -43,7 +43,6 @@ body {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     border-color:rgb(144, 202, 249);
     border-style: solid;
     border-width: 5px;
