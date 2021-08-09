@@ -103,8 +103,8 @@ li {
 
 #achievements {
     margin: 0 auto;
-    width: 1250px;
-    padding: 50px;
+    width: 90vw;
+    padding: 50px 0 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -115,7 +115,7 @@ li {
     /* background-color: rgb(30, 30, 30); */
     background: linear-gradient(rgb(18, 18, 18),rgb(30, 30, 30), rgb(18, 18, 18));
     /* margin-bottom: 150px; */
-    padding: 40px;
+    padding: 3vw;
     /* border-color:rgb(144, 202, 249);
     border-style: dashed; */
     /* border-radius: 15px; */
@@ -142,10 +142,6 @@ li {
     flex: 0 0 40%
 }
 
-/* #image {
-    
-} */
-
 #special-relativity-pic {
     background-color: white;
     width: 250px;
@@ -155,7 +151,7 @@ li {
 }
 
 #spacetime-curvature-pic {
-    width: 350px;
+    width: 300px;
     height: 200px;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -203,4 +199,40 @@ footer {
     display: flex;
     justify-content: center;
     color:rgb(255, 255, 255)
+}
+
+@media only screen and (max-width: 1000px) {
+    #achievements {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #timeline {
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #header {
+        flex-direction: column;
+        align-items: center;
+        margin: 10vh auto;
+    }
+
+    #div-Einstein-pic {
+        margin: 0;
+    }
+
+    #title {
+        width: 60vw;
+        margin-top: 20px;
+    }
+
+    #title h1 {
+        font-size: 40;
+    }
+
+    #timeline {
+        margin: 200px auto 200px;
+    }
 }
