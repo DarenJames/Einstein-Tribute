@@ -226,6 +226,7 @@ footer {
     #title {
         width: 60vw;
         margin-top: 20px;
+        align-items: center;
     }
 
     #title h1 {
@@ -234,5 +235,28 @@ footer {
 
     #timeline {
         margin: 200px auto 200px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #header {
+        margin: 0 auto;
+    }
+
+    #div-Einstein-pic {
+        width: 100vw;
+    }
+
+    #Einstein-pic {
+        width: 100vw;
+    }
+
+    #title {
+        margin-top: 50px;
+        font-size: 5vw;
+    }
+
+    #title h1 {
+        font-size: 10vw;
     }
 }
