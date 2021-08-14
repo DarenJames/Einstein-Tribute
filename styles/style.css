@@ -268,4 +268,23 @@ footer {
         line-height: 60px;
         margin-bottom: 30px;
     }
+
+    #timeline {
+        width: 100vw;
+        padding: 0;
+        margin: 200px 0 200px;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    #achievements {
+        margin: 0;
+        width: 100vw;
+    }
+
+    footer {
+        margin: 0 20px;
+    }
 }
